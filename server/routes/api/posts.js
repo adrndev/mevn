@@ -27,7 +27,7 @@ router.delete('/:id', async(req, res) => {
     res.status(200).send();
 });
 
-const uri = `mongodb+srv://adriandb:boruc666@cluster0.ymzgf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://xxx:xxx@cluster0.ymzgf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 
 async function loadPostsCollection() {
     const client = await mongodb.MongoClient.connect(uri, {
